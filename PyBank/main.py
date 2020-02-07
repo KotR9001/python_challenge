@@ -146,3 +146,7 @@ with open(csv_path,"r") as csv_file:
     #Find the Greatest Increase in Profits
     print(f"The greatest increase in profits is: {max_value_month} (${max_value}).")
     print(f"The greatest decrease in profits is: {min_value_month} (${min_value}).")
+
+#Print the Results to a txt File
+with open("budget_output.txt","w") as txt_file:
+    txt_file.write(f"The total amount of months is: {row_count}.\nThe total change in value was: ${total_change}.\nThe average monthly change is: ${avg_monthly_change}.\nThe greatest increase in profits is: {max_value_month} (${max_value}).\nThe greatest decrease in profits is: {min_value_month} (${min_value}).")

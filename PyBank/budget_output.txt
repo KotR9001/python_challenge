@@ -1,0 +1,5 @@
+The total amount of months is: 86.
+The total change in value was: $38382578.
+The average monthly change is: $-2315.12.
+The greatest increase in profits is: Feb-12 ($1926159).
+The greatest decrease in profits is: Sep-13 ($-2196167).
