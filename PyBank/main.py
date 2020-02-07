@@ -9,7 +9,7 @@ import datetime
 
 #Give Python Access to the Budget_Data CSV File
 #Code from Various Class Activities
-csv_path = os.path.join("https://github.com/KotR9001/python_challenge/tree/master/PyBank/budget_data.csv")
+csv_path = os.path.join("budget_data.csv")
 
 print("Financial Analysis")
 print("-------------------------")
