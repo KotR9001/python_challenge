@@ -4,8 +4,6 @@
 import os
 #Allows Python to Read & Write CSV Files
 import csv
-#Allows Python to Handle Date Time Data
-import datetime
 
 #Give Python Access to the Budget_Data CSV File
 #Code from Various Class Activities
@@ -133,32 +131,18 @@ with open(csv_path,"r") as csv_file:
             max_value = monthly_change
             #Change the Corresponding Month
             max_value_month = dict1["month"]
-        #Return the Previous Values
-        else:
-            #Retain the Old Value
-            max_value = old_monthly_change
-            #Retain the Old Month
-            max_value_month = old_month
         #See Whether the Current Change is Lowest
         if monthly_change < min_value:
             #Change the Min Change Value
             min_value = monthly_change
             #Change the Corresponding Month
             min_value_month = dict1["month"]
-        #Return the Previous Values
-        else:
-            #Retain the Old Value
-            min_value = old_monthly_change
-            #Retain the Old Month
-            min_value_month = old_month
         #Pull the Previous Month's "Profit/Loss"
         old_monthly_profit = dict1["monthly_profit"]
         #Pull the Previous Month's Change
         old_monthly_change = monthly_change
         #Pull the Previous Month
-        old_month = dict1["month"]
-    #Update the dictionary with the Maximum and Minimum Values
-    #dict1 = {"month":row[0], "monthly_profit":int(row[1]), "max_value":max(monthly_change_list), "min_value":min(monthly_change_list), "max_value_month":max_value_month, "min_value_month":min_value_month}    
+        old_month = dict1["month"]    
     #Find the Greatest Increase in Profits
     print(f"The greatest increase in profits is: {max_value_month} (${max_value}).")
     print(f"The greatest decrease in profits is: {min_value_month} (${min_value}).")
