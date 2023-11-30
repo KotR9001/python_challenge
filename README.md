@@ -8,7 +8,7 @@ Used Python to read in data from a CSV file and then loop through the records to
 -total change in value<br />
 -average monthly change<br />
 -greatest increase in profits<br />
--greatest decrease in profits
+-greatest decrease in profits<br />
 
 Used analysis to print the results to the terminal and exported the text file with the results.
 ![Alt text](/PyBank/budget_output.png?raw=true "Title")
