@@ -1,7 +1,7 @@
 # python_challenge
 Financial Record Analysis
 
-This assignment was done in order to analyze financial records to determine total & monthly profits and losses.
+Did this assignment in order to analyze financial records to determine total & monthly profits and losses.
 
 Used Python to read in data from a CSV file and then loop through the records to extract monthly profit & loss values in order to list:<br />
 -total months<br />
